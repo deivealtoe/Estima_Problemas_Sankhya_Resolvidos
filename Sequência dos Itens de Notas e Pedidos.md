@@ -6,4 +6,5 @@ Caso dê erro de chave estrangeira na tabela TGFDIN, é preciso:
  - Exportar os registros da tabela TGFDIN como inserção
  - Apagar os registros necessários da TGFDIN
  - Alterar a sequência dos itens que for preciso na TGFITE
- - No arquivo de INSERT gerado anteriormente, alterar a sequência dos itens e executar o insert
+ - Alterar no arquivo de INSERT gerado anteriormente de acordo com que foi alterado na sequência da tabela TGFITE
+ - Verificar a nova sequência e executar os inserts necessários
