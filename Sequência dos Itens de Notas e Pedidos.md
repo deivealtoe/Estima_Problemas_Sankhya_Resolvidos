@@ -8,3 +8,5 @@ Para corrigir esse problema, <b>tente primeiro</b> alterar o campo SEQUENCIA da 
  - Alterar a sequência dos itens que for preciso na TGFITE
  - Alterar no arquivo de INSERT gerado anteriormente de acordo com que foi alterado na sequência da tabela TGFITE
  - Verificar a nova sequência e executar os inserts necessários
+
+#### Após insersão, verificar os valores para base ICMS, alíq. ICMS e vlr. ICMS
