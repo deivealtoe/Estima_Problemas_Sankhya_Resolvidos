@@ -5,6 +5,7 @@
 <p>Isso aconteceu pois o pedido inicial foi digitado de maneira errada, foi inserido no pedido duas vezes</p>
 <p>O pedido foi carregado errado e tivemos que ligar para o cliente e ver se ele vai querer mesmo ou fazer alguma devolução</p>
 
+#### Procedure ESU_IMP_CONFERENCIA, linha 250
 ```
 select ite.CODPROD, pro.CODVOL, pro.TIPCONTEST, ite.CONTROLE
 from TGFPRO pro
@@ -13,5 +14,5 @@ where pro.REFERENCIA = 'Cód. de Barra do prod aqui'
 and ite.NUNOTA = 'Nro. Único da Nota aqui'
 and ite.CONTROLE = 'LOTE do produto (CONTROLE) AQUI';
 ```
-
+#### Erro
 <img src="https://raw.githubusercontent.com/deivealtoe/problemas_sankhya_resolvidos/master/_src/_images/finalizar_conferencia_erro.png">
