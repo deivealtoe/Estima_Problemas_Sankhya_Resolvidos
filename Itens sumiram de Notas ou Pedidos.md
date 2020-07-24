@@ -8,6 +8,7 @@ Caso esteja, é necessário
  - Inserir na TGFITE os itens/dados tratados
  - Excluir os itens da TGFITE_EXC
 
+#### Consulta para facilitar a troca de informações entre tabelas
 ```
 INSERT INTO TGFITE (
 NUNOTA, SEQUENCIA,NUTAB, CODEMP,CODPROD, CODLOCALORIG, CONTROLE, 
