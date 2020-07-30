@@ -2,7 +2,7 @@
 
 <p>Isso acontece pois a consulta deveria retornar apenas um registro, mas retona dois ou mais</p>
 <p>Nesse erro específico da imagem, o produto 803 tinha lote (controle) e código de barras iguais, então retorna duas linhas na consulta, ocasionando o erro</p>
-<p>Isso aconteceu pois o pedido inicial foi digitado de maneira errada, foi inserido no pedido duas vezes</p>
+<p>Isso aconteceu pois o pedido inicial foi digitado de maneira errada, o item foi inserido no pedido duas vezes</p>
 <p>O pedido foi carregado errado e tivemos que ligar para o cliente e ver se ele vai querer mesmo ou fazer alguma devolução</p>
 
 #### Procedure ESU_IMP_CONFERENCIA, linha 250
