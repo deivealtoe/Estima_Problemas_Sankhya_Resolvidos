@@ -1,6 +1,6 @@
 ### Problema: Fazer aparecer a opção de "Selecionar contas bancárias" no Portal de Vendas
 
-#### Para corrigir esse problema, é preciso:
+#### Para a tela da imagem aparecer no Portal de Vendas, é preciso:
 <ul>
   <li>Ir no cadastro de usuários "Configurações > Controle de Acesso > Usuários"</li>
   <li>Selecionar o usuário desejado</li>
