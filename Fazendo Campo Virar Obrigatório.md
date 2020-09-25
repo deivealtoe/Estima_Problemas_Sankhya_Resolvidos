@@ -5,7 +5,11 @@
 <p>Para alterar o campo pelo banco de dados, basta executar o comando a seguir, por exemplo:</p>
 
 ```
-ALTER TABLE tgfpro MODIFY (codformprec NOT NULL);
+ALTER TABLE tgfpro MODIFY (
+  codformprec NOT NULL,
+  outrocampo VARCHAR2(50),
+  ...
+);
 ```
 
 #### Mas antes de executar esse comando para alterar o campo, certifique-se de que não há nenhum registro como nulo no campo alterado
